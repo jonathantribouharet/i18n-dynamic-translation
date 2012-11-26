@@ -8,7 +8,7 @@ Installation
 
 Include the gem in your Gemfile:
 
-gem 'i18n-dynamic-translation', :git => 'https://github.com/eviljojo22/i18n-dynamic-translation'
+	gem 'i18n-dynamic-translation', :git => 'https://github.com/eviljojo22/i18n-dynamic-translation'
 
 
 Usage
