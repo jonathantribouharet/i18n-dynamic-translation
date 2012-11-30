@@ -2,6 +2,8 @@ I18n Dynamic Translation
 ======================
 
 Plugin for have translations in model.
+Save the translations in database with gem 'i18n-active_record'.
+Very usefull for multilingual site.
 
 Installation
 ------------
@@ -25,3 +27,19 @@ In your model:
 		dynamic_translation :name
 
 	end
+
+In your form:
+
+	<%= form_for @article fo |f| %>
+		<% for locale in I18n.available_locales %>
+			<%= f.text_field "name_#{locale}_raw"
+		<% end %>
+
+		<%= f.submit %>
+	<% end %>
+
+In your html:
+
+	I18n.locale : <%= @article.name %>
+	EN : <%= @article.name_en %>
+	FR : <%= @article.name_fr %>
