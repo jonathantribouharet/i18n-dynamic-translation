@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
 	s.name = "i18n-dynamic-translation"
 	s.platform = Gem::Platform::RUBY
 	s.summary = "Dynamic translations in model"
-	s.homepage = "https://github.com/eviljojo22/i18n-dynamic-translation"
+	s.homepage = "https://github.com/jonathantribouharet/i18n-dynamic-translation"
 	s.require_paths = ["lib"]
 	s.version = "1.0"
 	s.author = "Jonathan TRIBOUHARET"
