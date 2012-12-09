@@ -4,6 +4,7 @@ I18n Dynamic Translation
 Plugin for have translations in model.
 Save the translations in database with gem 'i18n-active_record'.
 Very usefull for multilingual site.
+You have to use Ruby 1.9.3 due to bug in 1.9.2 MRI.
 
 Installation
 ------------
